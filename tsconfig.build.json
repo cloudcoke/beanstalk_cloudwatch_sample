@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "baseUrl": "./",
+  "compilerOptions": {
+    "paths": {
+      "@modules/*": ["src/modules/*"],
+      "@common/*": ["src/common/*"]
+    }
+  },
+  "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
+}
